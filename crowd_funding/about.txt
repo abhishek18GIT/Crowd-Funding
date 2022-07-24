@@ -1,0 +1,29 @@
+
+Crowd Funding :
+
+    It is the practice of funding a project or venture by raising money from a large number of people.
+
+    This smart contract consists of different functions and contructor to create a decentralised crowd funding system: 
+
+        1. Initially manager defines the target , deadline and minimum contribution for the fund raising.
+        
+        2. createRequest : 
+            This function takes parameters (about, account info , value required) for the venture.
+
+        3. makePayment : 
+            Upon statisfying the requirements of contract this function will tranfer the rasised amount into the account of person who created venture.
+
+        4. refund :
+            If the minimum fund are not raised and contributors have contributed some amount , they are eligible for the refund.
+
+        5. sendEth :
+            this is used by contributors to contributed their amount.
+
+        6. voteRequest :
+            this is used by contributors to vote for which venture they want their money to be funded.
+
+
+    
+
+
+
